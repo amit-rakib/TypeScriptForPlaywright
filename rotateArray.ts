@@ -44,3 +44,16 @@ if(newArr === rev){
 } else{
     console.log("False")
 }
+
+// Merge array
+
+let merge: number[] = []
+
+for(let i of newArr){
+    merge.push(i)
+}
+for(let i of rotate){
+    merge.push(i)
+}
+
+console.log(merge)
