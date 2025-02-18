@@ -33,15 +33,3 @@ console.log(`Min: ${min}`)
 ars = ars.reverse()
 console.log(ars)
 
-// using while loop
-let l = 0
-let r = ars.length
-
-while(l>r){
-   [ars[l], ars[r]] = [ars[r], ars[l]]
-
-   l++
-   r++
-}
-
-console.log(ars)
